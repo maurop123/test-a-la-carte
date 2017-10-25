@@ -3,7 +3,12 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import {Vuetify, VApp, VButton} from 'vuetify'
+import {Vuetify, VApp} from 'vuetify'
+Vue.use(Vuetify, {
+  components: {
+    VApp,
+  }
+})
 
 Vue.config.productionTip = false
 
