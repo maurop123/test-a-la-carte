@@ -46,7 +46,6 @@ module.exports = {
         test: /\.js$/,
         loader: 'babel-loader',
         include: [resolve('src'), resolve('test')],
-        exclude: [resolve('node_modules')]
       },
       {
         test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
@@ -72,10 +71,6 @@ module.exports = {
           name: utils.assetsPath('fonts/[name].[hash:7].[ext]')
         }
       },
-      {
-        test: /\.styl$/,
-        loader: ['style-loader', 'css-loader', 'stylus-loader']
-      }
     ]
   }
 }

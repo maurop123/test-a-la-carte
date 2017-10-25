@@ -23,5 +23,5 @@ export default {
 </style>
 
 <style lang="stylus">
-  @require './stylus/main'
+  @require './assets/main'
 </style>
